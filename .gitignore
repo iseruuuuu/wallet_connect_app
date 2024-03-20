@@ -44,3 +44,5 @@ app.*.map.json
 
 /lib/generated
 /lib/constants/secret_key.dart
+
+.fvm/flutter_sdk
