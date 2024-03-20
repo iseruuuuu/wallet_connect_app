@@ -1,17 +1,30 @@
 # wallet_connect_app
 
-A new Flutter project.
+「YOUTRUST x ゆめみ Flutter LT会@渋谷＆オンライン #5」の登壇資料に使用するリポジトリです。
+https://yumemi.connpass.com/event/308489/
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+#### リポジトリのクローン
+```shell
+git clone https://github.com/iseruuuuu/wallet_connect_app.git
+```
 
-A few resources to get you started if this is your first Flutter project:
+#### fvm のインストール
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```
+fvm use 3.16.5
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### 注意事項
+- `projectID`については、各自Wallet Connectにサインインし、取得してください。
+
+```dart
+//lib/constants/secret_key.dart
+const projectID = 'プロジェクトID';
+```
+
+## 
+
 # wallet_connect_app
