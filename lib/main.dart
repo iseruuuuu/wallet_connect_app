@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: MyHomePage(),
+      home: const MyHomePage(),
     );
   }
 }
@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
         url: 'https://www.walletconnect.com/',
         icons: ['https://walletconnect.com/walletconnect-logo.png'],
         redirect: Redirect(
-          native: 'flutterdapp://', // your own custom scheme
+          native: 'flutterdapp://',
           universal: 'https://www.walletconnect.com',
         ),
       ),
