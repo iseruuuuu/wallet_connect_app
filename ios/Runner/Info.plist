@@ -16,6 +16,10 @@
 	<string>wallet_connect_app</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
+	<key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>metamask</string>
+    </array>
 	<key>CFBundleShortVersionString</key>
 	<string>$(FLUTTER_BUILD_NAME)</string>
 	<key>CFBundleSignature</key>
